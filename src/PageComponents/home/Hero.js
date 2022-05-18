@@ -1,6 +1,6 @@
 import { PageHero } from "./Hero.styled"
 import Image from 'next/image'
-import Navbar from "../../Components/Nabar/Navbar"
+// import Navbar from "./../Components/Navbar/Navbar"
 import Link from "next/link"
 import { HeroImg,HeroInfo, HeroTitle } from "./Hero.styled"
 
@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <PageHero>
        
-            <Navbar/>
+            {/* <Navbar/> */}
             <div className="wrap">
             <HeroInfo>
                 <HeroTitle>
@@ -33,6 +33,7 @@ const Hero = () => {
         </div>
 
     </PageHero>
+    
   )
 }
 

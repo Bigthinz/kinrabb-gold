@@ -1,10 +1,11 @@
 import React from 'react'
+import Title from '../../Components/Title/Title'
 
 const Layer = () => {
   return (
     <>
         <div className="layer">
-            layer
+            <Title text='services' />
         </div>
     </>
   )
