@@ -1,6 +1,6 @@
 import { PageHero } from "./Hero.styled"
 import Image from 'next/image'
-// import Navbar from "./../Components/Navbar/Navbar"
+import Navbar from "./../../Components/Navbar/Navbar"
 import Link from "next/link"
 import { HeroImg,HeroInfo, HeroTitle } from "./Hero.styled"
 
@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <PageHero>
        
-            {/* <Navbar/> */}
+            <Navbar/>
             <div className="wrap">
             <HeroInfo>
                 <HeroTitle>
@@ -23,7 +23,7 @@ const Hero = () => {
                 <HeroImg>
                     <div className="banner">
                         <Image src='/images/3d-gold.png' alt='' width='500' height='500' layout='intrinsic' objectFit="contain"/>
-                        <h1>Keep an eye on <span>Gold</span></h1>
+                        <h3>Keep an eye on <span>Gold</span></h3>
                     </div> 
                     <Link href='' passHref>
                       <button >open your free account now</button>

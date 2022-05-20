@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <Nav>
         <Wrap>
-            <div>
-                <Image src='/images/logo.png' alt='logo' width={30} height={30} />
+            <div className="logo-div">
+                <Image src='/images/logo.png' alt='logo'  width={30} height={30} objectFit='cover' />
             </div>
             <NavOptions>
 

@@ -2,13 +2,13 @@ import styled from "styled-components"
 
 export const PageHero = styled.section`
 
-color:#fefefe;
+color:#333;
 
 width:100%;
-height:100vh;
+/* height:100vh; */
 background-size: cover;
 background-position:center center;
-background-image:url('/images/background.jpg');
+/* background-image:url('/images/background.jpg'); */
 
 position:relative;
 
@@ -22,7 +22,7 @@ position:relative;
 `
 
 export const HeroTitle = styled.div`
-    width:80%;
+    width:90%;
    
 
 
@@ -30,6 +30,7 @@ export const HeroTitle = styled.div`
         font-size:3.5rem;
         font-weight:300;
         text-align:center;
+        
         /* margin:auto; */
     }
 
@@ -54,12 +55,12 @@ export const HeroTitle = styled.div`
 
 export const HeroInfo = styled.div`
 
-position:absolute;
+/* position:absolute;
 top:40%;
 left:50%;
-transform:translate(-50%,-50%);
+transform:translate(-50%,-50%); */
 
-width:80% !important;
+width:90% !important;
 margin:auto;
 
 /* display:grid; */
@@ -78,17 +79,18 @@ export const HeroImg = styled.div`
     .banner{
         position:relative;
         background:#fff;
-        padding: 4rem;
+        padding: 2rem;
         width:100%;
 
         border-radius:1rem;
         text-align:center;
-        margin-top:4rem;
-        margin-bottom:3.5rem;
+        margin-top:2rem;
+        margin-bottom:2rem;
         color:#333;
 
-        &>h1{
+        &>h3{
             margin-top:1rem;
+            font-size:1.8rem;
             span{
                 color:#FFA000;
             }
@@ -102,7 +104,7 @@ export const HeroImg = styled.div`
 
         width:100%;
         text-transform:capitalize;
-        border-radius: 1rem;
+        border-radius: .5rem;
         background:linear-gradient(90deg, #FFB300 1.91%, #FFA000 100%);
     }
 
