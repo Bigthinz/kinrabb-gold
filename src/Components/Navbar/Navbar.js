@@ -7,11 +7,9 @@ const Navbar = () => {
     <Nav>
         <Wrap>
             <div className="logo-div">
-                <Image src='/images/logo.png' alt='logo'  width={30} height={30} objectFit='cover' />
+                <Image src='/images/logo.svg' alt='logo'  width={100} height={100} objectFit='contain' priority/>
             </div>
-            <NavOptions>
-
-                
+            <NavOptions>                
                 {/* <div className="links">
                     <ul>
                         <li><Link href=''><a>About us</a></Link></li>
@@ -20,10 +18,10 @@ const Navbar = () => {
                         <li>Parking</li>
                         <li><Link href=''><a>Imports</a></Link></li>
                         <li><Link href=''><a>Tracking</a></Link></li>
-                        <li><Link href=''><a>Safe keeping</a></Link></li>
-                        
+                        <li><Link href=''><a>Safe keeping</a></Link></li>                        
                     </ul>
                 </div>
+                    
                 <div className="auth">
                     <div className="auth-wrap">
                         <span className="signin">
@@ -32,12 +30,9 @@ const Navbar = () => {
                         <span className="signup">
                             <Link href=''><a>Sign Up</a></Link>
                         </span>
-
                     </div>
                 </div> */}
-            </NavOptions>
-
-            
+            </NavOptions>      
         </Wrap>
     </Nav>
   )

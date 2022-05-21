@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import Title from '../../Components/Title/Title'
 import { Form, GetStarted, LayerWrap, Signup } from './Layer.styled'
 import Button from './../../Components/Button/Button'
@@ -18,6 +19,7 @@ const Layer = () => {
                 </div>
             </div>
         </Signup>
+
         <Form>
             <div className='form-wrap'>
                 <form>
@@ -44,6 +46,21 @@ const Layer = () => {
               <div className="layer">
                 <Title text='HOW TO GET STARTED' />
               </div>
+              <section className='section-wrap'>
+                  <div className='section-1'>
+                      <div className='section-1-img'>
+                          <Image src='/images/goldbar.png' alt='' width='500' height='500' layout='intrinsic' objectFit="cover"/>
+                        </div>
+                  </div>
+                  <div className='section-2'>
+                    <h2>Grow Your <span>Gold</span> In The Right Way</h2>
+                    <p>invest your gold with us and gain more profits consistently everyday! We acknowledge an increasing complexity in our operating environments, with heightened expectations for business to contribute</p>
+                    
+                    <div className='btn'>
+                      <Button text='Get Started'/>
+                    </div>
+                  </div>
+              </section>
             </div>
         </GetStarted>
 

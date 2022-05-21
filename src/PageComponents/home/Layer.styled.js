@@ -7,6 +7,7 @@ export const LayerWrap = styled.div`
 
     .layer{
         text-align:center;
+        margin-bottom:4rem;
     }
     
 `
@@ -14,11 +15,16 @@ export const LayerWrap = styled.div`
 
 export const Signup = styled.div`
     margin-top: 5rem;
+    margin:auto;
+    width:90%;
     h3{
         margin: 2rem 0;
+        font-size:2rem;
     }
     p{
         width:90%;
+        line-height:2rem;
+        
     }
 `
 
@@ -65,6 +71,30 @@ export const Form = styled.div`
 
 export const GetStarted = styled.div`
 
+    .wrap{
+        width:90%;
+        margin:auto;
+        text-align:center;
 
+
+        .section-wrap{
+
+            .section-2{
+
+                h2{
+                    margin-bottom: 2rem;
+
+                    span{
+                        color:#FFA000;
+                    }
+                }
+
+                p{
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+        
+    }
         
 `
