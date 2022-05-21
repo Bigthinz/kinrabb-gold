@@ -8,9 +8,9 @@ import Button from './../../Components/Button/Button'
 const Layer = () => {
   return (
     <LayerWrap>
-        <div className="layer">
+        {/* <div className="layer">
             <Title text='HOW TO GET STARTED' />
-        </div>
+        </div> */}
         <Signup>
             <div className="signup-wrap">
                 <div className='heading'>
