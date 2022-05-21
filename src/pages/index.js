@@ -17,7 +17,7 @@ export default function Home() {
 
       <main>
           <Hero/>
-          {/* <Layer/> */}
+          <Layer/>
       </main>
 
      

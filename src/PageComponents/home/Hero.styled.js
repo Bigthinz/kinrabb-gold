@@ -11,6 +11,7 @@ background-position:center center;
 /* background-image:url('/images/background.jpg'); */
 
 position:relative;
+margin-bottom:7rem;
 
 .wrap{
     position:relative;

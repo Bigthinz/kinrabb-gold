@@ -19,6 +19,7 @@ html{
 
 body {
   font-size:1.3rem;
+  color: #474645;
  
 }
 
