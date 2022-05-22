@@ -22,7 +22,7 @@ const Hero = () => {
                 </HeroTitle>
                 <HeroImg>
                     <div className="banner">
-                        <Image src='/images/3d-gold.png' alt='' width='500' height='500' layout='intrinsic' objectFit="contain"/>
+                        <Image src='/images/goldpile.png' alt='' width='500' height='500' layout='intrinsic' objectFit="contain"/>
                         <h3>Keep an eye on <span>Gold</span></h3>
                     </div> 
                     <Link href='' passHref>

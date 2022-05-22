@@ -71,7 +71,7 @@ const Layer = () => {
                 <div className='policy-container'>
                   <div className='policy-item'>
                     <div className='policy-item-img'>
-                      <Image src='/icons/badge.png' alt='' width='120' height='120' layout='intrinsic' objectFit="cover"/>
+                      <Image src='/icons/badge.png' alt='' width='150' height='150' layout='intrinsic' objectFit="cover"/>
                     </div>
                     <div className='policy-item-text'>
                       <h4>Secure Asset Fund for Users (SAFU)</h4>
@@ -82,7 +82,7 @@ const Layer = () => {
 
                   <div className='policy-item'>
                     <div className='policy-item-img'>
-                      <Image src='/icons/access.png' alt='' width='120' height='120' layout='intrinsic' objectFit="cover"/>
+                      <Image src='/icons/access.png' alt='' width='150' height='150' layout='intrinsic' objectFit="cover"/>
                     </div>
                     <div className='policy-item-text'>
                       <h4>Personalised Access Control</h4>
@@ -92,7 +92,7 @@ const Layer = () => {
                   </div>
                   <div className='policy-item'>
                     <div className='policy-item-img'>
-                      <Image src='/icons/lock.png' alt='' width='120' height='120' layout='intrinsic' objectFit="cover"/>
+                      <Image src='/icons/lock.png' alt='' width='150' height='150' layout='intrinsic' objectFit="cover"/>
                     </div>
                     <div className='policy-item-text'>
                       <h4>Advanced Data Encryption</h4>

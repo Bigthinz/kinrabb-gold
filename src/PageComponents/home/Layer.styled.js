@@ -70,7 +70,7 @@ export const Form = styled.div`
 `
 
 export const GetStarted = styled.div`
-    margin-bottom:7rem;
+    margin-bottom:9rem;
     .wrap{
         width:90%;
         margin:auto;
@@ -126,6 +126,8 @@ export const Policy = styled.div`
                 .policy-item{
                     display:flex;
                     margin-bottom: 2rem;
+
+                    
 
                     &-text > h4{
                         margin-bottom:1rem
