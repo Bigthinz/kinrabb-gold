@@ -37,7 +37,7 @@ export const Form = styled.div`
         margin:auto;
         background: #FEFEFE;
         box-shadow: 0px 26.8762px 94.0668px 13.4381px rgba(0, 0, 0, 0.05);
-        padding:2rem;
+        padding:3rem 2rem;
 
 
         form{
@@ -70,7 +70,7 @@ export const Form = styled.div`
 `
 
 export const GetStarted = styled.div`
-
+    margin-bottom:7rem;
     .wrap{
         width:90%;
         margin:auto;
@@ -91,10 +91,56 @@ export const GetStarted = styled.div`
 
                 p{
                     margin-bottom: 3rem;
+                    line-height:2rem;
                 }
             }
         }
         
     }
         
+`
+
+export const Policy = styled.div`
+
+    .wrap{
+        width:90%;
+        margin:auto;
+
+        .section-1{
+
+            h3{
+                margin-bottom: 2rem;
+                font-size:2rem;
+                text-align:center;
+            }
+
+            .head-p{
+                line-height:2rem;
+                margin-bottom: 2rem;
+                text-align:center;
+            }
+
+            .policy-container{
+                margin-top:4rem;
+                
+                .policy-item{
+                    display:flex;
+                    margin-bottom: 2rem;
+
+                    &-text > h4{
+                        margin-bottom:1rem
+                    }
+
+                    &-img{
+                        margin-right:2rem;
+                    }
+
+                    p{
+                        line-height:1.8rem;
+                    }
+
+                }
+            }
+        }
+    }
 `

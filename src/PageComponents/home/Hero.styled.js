@@ -15,15 +15,16 @@ margin-bottom:7rem;
 
 .wrap{
     position:relative;
-    width:100%;
+    width:90%;
     height:100%;
+    margin:auto;
 }
 
 
 `
 
 export const HeroTitle = styled.div`
-    width:90%;
+    width:100%;
    
 
 
@@ -47,6 +48,7 @@ export const HeroTitle = styled.div`
         text-transform:capitalize;
 
         margin: 3em 0 2rem 0;
+       
 
         cursor: pointer;
         
@@ -61,7 +63,7 @@ top:40%;
 left:50%;
 transform:translate(-50%,-50%); */
 
-width:90% !important;
+width:100% !important;
 margin:auto;
 
 /* display:grid; */
@@ -91,7 +93,7 @@ export const HeroImg = styled.div`
 
         &>h3{
             margin-top:1rem;
-            font-size:1.8rem;
+            font-size:2rem;
             span{
                 color:#FFA000;
             }
