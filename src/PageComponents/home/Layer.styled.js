@@ -261,19 +261,33 @@ export const Features = styled.div`
         .feature-container{
             margin-top:5rem;
             margin-bottom:6rem;
+            
+
+            .active{
+                
+            }
 
             .feature-item{
                 position:relative;
                 /* display:flex; */
-                margin-bottom: 6rem;
+                margin:auto;
+                margin-bottom: 4rem;
+                
+                width:90%;
                 padding:2rem;
-                border: 1px solid #FFB300;
+                border: 1px solid #4D535B;
                 border-radius:1rem;
                 box-shadow: 0px 4px 140px 5px rgba(0, 0, 0, 0.09);
+                transition:all 0.2s ease-in-out;
                 
+
+                &:hover{
+                    border: 1px solid #FFB300;
+                    background: #f9f9f9;
+                }
                 &-img{
                     margin-right:2rem;
-                    width:90%;
+                    width:70%;
                     margin:auto;
                 }
 
@@ -287,9 +301,9 @@ export const Features = styled.div`
 
                 button{
                     margin-bottom:1rem;
-                    font-size:1.5rem;
-                    width:25rem;
-                    padding:2rem 2rem;
+                    /* font-size:1.5rem; */
+                    width:20rem;
+                    padding:1.5rem 2rem;
                     border-radius:30px;
                     background: #1A1A1A;
                     color:#fefefe;
@@ -297,7 +311,7 @@ export const Features = styled.div`
                     outline:none;
 
                     position:absolute;
-                    bottom:-18%;
+                    bottom:-20%;
                     left:50%;
                     right:50%;
                     transform:translate(-50%,-50%);
