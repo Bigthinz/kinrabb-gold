@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Title from '../../Components/Title/Title'
-import { Form, GetStarted, LayerWrap, Policy, Signup } from './Layer.styled'
+import { Form, GetStarted, LayerWrap, Policy, Signup, Value } from './Layer.styled'
 import Button from './../../Components/Button/Button'
 
 
@@ -106,6 +106,49 @@ const Layer = () => {
               </div>  
             </div>
         </Policy>
+
+        <Value>
+            <div className='wrap'>
+              <div className='section-1'>
+                <h3>Kinrabb Gold Security Company</h3>
+              </div>
+              <div className='section-2'>
+                <div className='section-column section-2-column-1'>
+                  <div className='box item-1'>
+                      <div className='box-img'>
+                        <Image src='/icons/badge.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
+                      </div>
+                      <h3>values</h3>
+                      <p>We serve our customers with fairness and transparency. We settle all contracts by the book and speak plainly and truthfully.</p>
+                  </div>
+                  <div className='box item-1'>
+                      <div className='box-img'>
+                        <Image src='/icons/badge.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
+                      </div>
+                      <h3>Teamwork</h3>
+                      <p>We value team players that collaborate freely across departments with humility and ambition.</p>
+                  </div>
+              </div>
+
+              <div className=' section-column section-2-column-2'>
+                  <div className='box item-1'>
+                      <div className='box-img'>
+                        <Image src='/icons/badge.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
+                      </div>
+                      <h3>Competence</h3>
+                      <p>We value colleagues with an aptitude to learn and grow and the ability to use good judgement.</p>
+                  </div>
+                  <div className='box item-1'>
+                      <div className='box-img'>
+                        <Image src='/icons/badge.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
+                      </div>
+                      <h3>Customer focus</h3>
+                      <p>We put the customer first and strive to build products that deliver the best customer experience.</p>
+                  </div>
+              </div>
+            </div>
+            </div>
+        </Value>
 
     </LayerWrap>
   )

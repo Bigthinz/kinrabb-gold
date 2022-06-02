@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const LayerWrap = styled.div`
-    width: 90%;
+    /* width: 90%; */
     margin: auto;
     margin-bottom:7rem;
 
@@ -16,7 +16,7 @@ export const LayerWrap = styled.div`
 export const Signup = styled.div`
     margin-top: 5rem;
     margin:auto;
-    width:90%;
+    width:85%;
     h3{
         margin: 2rem 0;
         font-size:2rem;
@@ -72,7 +72,7 @@ export const Form = styled.div`
 export const GetStarted = styled.div`
     margin-bottom:9rem;
     .wrap{
-        width:90%;
+        width:85%;
         margin:auto;
         text-align:center;
 
@@ -101,9 +101,9 @@ export const GetStarted = styled.div`
 `
 
 export const Policy = styled.div`
-
+    margin-bottom:10rem;
     .wrap{
-        width:90%;
+        width:85%;
         margin:auto;
 
         .section-1{
@@ -141,6 +141,100 @@ export const Policy = styled.div`
                         line-height:1.8rem;
                     }
 
+                }
+            }
+        }
+    }
+
+   
+`
+
+export const Value = styled.div`
+    min-height:100vh;
+    background:#0E0E0E;
+    transform:skewY(-10deg);
+    margin-bottom:7rem;
+    padding:5rem 0;
+    
+
+    .wrap{
+        width:85%;
+        margin:auto;
+        transform:skewY(10deg);
+        
+
+        .section-1{
+            
+            h3{
+                padding-top: 7rem !important;
+                color:#fefefe;
+                font-size:2rem;
+                text-align:center;
+                text-transform:uppercase;
+                margin-bottom: 7rem;
+            }
+        }
+
+        .section-2{
+            margin-top:4rem;
+            margin-bottom:7rem;
+
+            &-column-1{
+
+
+                .box{
+                    background:#fefefe;
+                    color:#0E0E0E;
+                    padding:2rem;
+                    border-radius:1rem;
+                    margin-bottom:3rem;
+
+                    .box-img{
+                        margin-bottom:1rem;
+                    }
+
+                    h3{
+                        margin-bottom: 1rem;
+                        font-size:2rem;
+                    }
+
+                    p{
+                        /* margin-bottom: 3rem; */
+                        line-height:2rem;
+
+                    }
+                }
+            }
+        }
+
+        .section-2{
+            margin-top:4rem;
+            margin-bottom:7rem;
+
+            &-column-2{
+
+
+                .box{
+                    background:#fefefe;
+                    color:#0E0E0E;
+                    padding:2rem;
+                    border-radius:1rem;
+                    margin-bottom:2rem;
+
+                    .box-img{
+                        margin-bottom:1rem;
+                    }
+
+                    h3{
+                        margin-bottom: 1rem;
+                        font-size:2rem;
+                    }
+
+                    p{
+                        /* margin-bottom: 3rem; */
+                        line-height:2rem;
+
+                    }
                 }
             }
         }
