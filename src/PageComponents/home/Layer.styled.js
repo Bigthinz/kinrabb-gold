@@ -301,9 +301,9 @@ export const Features = styled.div`
 
                 button{
                     margin-bottom:1rem;
-                    font-size:1.2rem;
-                    width:20rem;
-                    padding:1.5rem 2rem;
+                    font-size:1.5rem;
+                    width:21rem;
+                    padding:2rem 2rem;
                     border-radius:30px;
                     background: #1A1A1A;
                     color:#fefefe;
@@ -311,7 +311,7 @@ export const Features = styled.div`
                     outline:none;
 
                     position:absolute;
-                    bottom:-52px;
+                    bottom:-65px;
                     left:50%;
                     right:50%;
                     transform:translate(-50%,-50%);
