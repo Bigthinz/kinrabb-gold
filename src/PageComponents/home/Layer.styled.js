@@ -273,7 +273,7 @@ export const Features = styled.div`
                 margin:auto;
                 margin-bottom: 6rem;
                 
-                /* width:90%; */
+                width:95%;
                 padding:2rem;
                 border: 1px solid #4D535B;
                 border-radius:1rem;
@@ -287,7 +287,7 @@ export const Features = styled.div`
                 }
                 &-img{
                     margin-right:2rem;
-                    width:70%;
+                    width:80%;
                     margin:auto;
                 }
 
@@ -303,7 +303,7 @@ export const Features = styled.div`
                     margin-bottom:1rem;
                     font-size:1.2rem;
                     width:20rem;
-                    padding:2rem 2rem;
+                    padding:1.5rem 2rem;
                     border-radius:30px;
                     background: #1A1A1A;
                     color:#fefefe;
@@ -311,7 +311,7 @@ export const Features = styled.div`
                     outline:none;
 
                     position:absolute;
-                    bottom:-60px;
+                    bottom:-52px;
                     left:50%;
                     right:50%;
                     transform:translate(-50%,-50%);
