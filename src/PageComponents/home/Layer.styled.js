@@ -271,9 +271,9 @@ export const Features = styled.div`
                 position:relative;
                 /* display:flex; */
                 margin:auto;
-                margin-bottom: 4rem;
+                margin-bottom: 6rem;
                 
-                width:90%;
+                /* width:90%; */
                 padding:2rem;
                 border: 1px solid #4D535B;
                 border-radius:1rem;
@@ -301,9 +301,9 @@ export const Features = styled.div`
 
                 button{
                     margin-bottom:1rem;
-                    /* font-size:1.5rem; */
+                    font-size:1.2rem;
                     width:20rem;
-                    padding:1.5rem 2rem;
+                    padding:2rem 2rem;
                     border-radius:30px;
                     background: #1A1A1A;
                     color:#fefefe;
@@ -311,7 +311,7 @@ export const Features = styled.div`
                     outline:none;
 
                     position:absolute;
-                    bottom:-20%;
+                    bottom:-60px;
                     left:50%;
                     right:50%;
                     transform:translate(-50%,-50%);
