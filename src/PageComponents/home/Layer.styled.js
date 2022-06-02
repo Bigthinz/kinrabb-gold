@@ -323,3 +323,83 @@ export const Features = styled.div`
         }
     }
 `
+
+export const Action = styled.div`
+    margin-bottom:7rem;
+    margin-top:9rem;
+    background:#fafafa;
+    padding: 4rem 0;
+
+    .wrap{
+        width:85%;
+        margin:auto;
+        
+
+        .section-1{
+            h3{
+                margin-bottom: 2rem;
+                font-size:2rem;
+                text-align:center;
+                text-transform:capitalize;
+            }
+    }
+    }
+`
+
+export const Faq = styled.div`
+    margin-bottom:7rem;
+    margin-top:9rem;
+    background:#fafafa;
+        
+    .wrap{
+        width:85%;
+        margin:auto;
+
+        h3{
+            margin-bottom: 2rem;
+            font-size:2rem;
+            text-align:center;
+            
+        }
+
+        .faq-tab{
+           
+            &-item{
+                margin-bottom:2rem;
+                padding:2rem;
+
+                &-img{
+                    text-align:center;
+                    margin-bottom:2rem;
+                }
+                
+                &-info{
+                    text-align:center;
+                    
+                    
+
+                    h4{
+                        margin-bottom:1rem;
+                        text-align:center;
+
+                    }
+                    
+                    p{
+                        margin:auto;
+                        margin-bottom:2rem;
+                        line-height:2rem;
+                        text-align:center;
+                        
+                        width:80%;
+                    }
+
+                    a{
+                        color:#ffb300;
+                    }
+                }
+
+            }
+
+        }
+    }
+`

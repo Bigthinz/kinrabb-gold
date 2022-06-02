@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Title from '../../Components/Title/Title'
-import { Features, Form, GetStarted, LayerWrap, Policy, Signup, Value } from './Layer.styled'
+import { Action, Faq, Features, Form, GetStarted, LayerWrap, Policy, Signup, Value } from './Layer.styled'
 import Button from './../../Components/Button/Button'
 
 
@@ -24,6 +24,27 @@ const Layer = () => {
       text: 'safe keeping'
     }
 
+  ]
+
+  const faq = [
+    {
+      question: '24/7 Chat Support',
+      desc:'Get 24/7 chat support with our friendly customer service agents at your service.',
+      action:'Chat now',
+      image: '/icons/chat-support.png'
+    },
+    {
+      question: 'FAQs',
+      desc:'View FAQs for detailed instructions on specific features.',
+      action:'Lern more',
+      image: '/icons/faq.png'
+    },
+    {
+      question: 'Blog',
+      desc:' Stay up to date with the latest stories and commentary.',
+      action:'Lern more',
+      image: '/icons/blog.png'
+    },
   ]
 
   return (
@@ -206,6 +227,42 @@ const Layer = () => {
             </div>
             </div>
         </Features>
+
+        <Action>
+            <div className='wrap'>
+              <div className='section-1'>
+                <h3>start saving gold with us</h3>
+                <Button text='Get Started'/>
+              </div>
+            </div>
+        </Action>
+
+        <Faq>
+            <div className='wrap'>
+              <h3>Have questions?</h3>
+              <div className='faq-tab'>
+                {
+                  faq.map((item, index) => {
+                    return (
+                      <div className='faq-tab-item' key={index}>
+                        <div className='faq-tab-item-img'>
+                          <Image src={item.image} alt='' width='50' height='50' layout='intrinsic' objectFit="cover"/>
+                        </div>
+                        <div className='faq-tab-item-info'>
+                          <h4>{item.question}</h4>
+                          <p>{item.desc}</p>
+                          <Link className='link' href='/faq' passHref>
+                            <a >{item.action}</a>
+                          </Link>
+                        </div>
+                      </div>
+                    )
+                  })
+                }
+                
+            </div>
+            </div>
+        </Faq>
 
     </LayerWrap>
   )
