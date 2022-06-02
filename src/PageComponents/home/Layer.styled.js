@@ -348,12 +348,13 @@ export const Action = styled.div`
 
 export const Faq = styled.div`
     margin-bottom:7rem;
-    margin-top:9rem;
-    background:#fafafa;
+
+    padding: 4rem 0;
         
     .wrap{
         width:85%;
         margin:auto;
+        
 
         h3{
             margin-bottom: 2rem;
@@ -363,6 +364,7 @@ export const Faq = styled.div`
         }
 
         .faq-tab{
+        
            
             &-item{
                 margin-bottom:2rem;

@@ -246,7 +246,7 @@ const Layer = () => {
                     return (
                       <div className='faq-tab-item' key={index}>
                         <div className='faq-tab-item-img'>
-                          <Image src={item.image} alt='' width='50' height='50' layout='intrinsic' objectFit="cover"/>
+                          <Image src={item.image} alt='' width='60' height='60' layout='intrinsic' objectFit="contain"/>
                         </div>
                         <div className='faq-tab-item-info'>
                           <h4>{item.question}</h4>
