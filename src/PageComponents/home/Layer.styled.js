@@ -166,9 +166,10 @@ export const Value = styled.div`
         .section-1{
             
             h3{
-                padding-top: 7rem !important;
+                padding-top: 5rem !important;
                 color:#fefefe;
                 font-size:2rem;
+                line-height:3rem;
                 text-align:center;
                 text-transform:uppercase;
                 margin-bottom: 7rem;
@@ -217,7 +218,7 @@ export const Value = styled.div`
                 .box{
                     background:#fefefe;
                     color:#0E0E0E;
-                    padding:2rem;
+                    padding:3rem 2rem;
                     border-radius:1rem;
                     margin-bottom:2rem;
 
@@ -237,6 +238,74 @@ export const Value = styled.div`
                     }
                 }
             }
+        }
+    }
+`
+
+
+export const Features = styled.div`
+
+    .wrap{
+        width:85%;
+        margin:auto;
+        margin-bottom:7rem;
+
+        h3{
+            margin-bottom: 2rem;
+            font-size:2rem;
+            text-align:center;
+            
+
+        }
+
+        .feature-container{
+            margin-top:5rem;
+            margin-bottom:6rem;
+
+            .feature-item{
+                position:relative;
+                /* display:flex; */
+                margin-bottom: 6rem;
+                padding:2rem;
+                border: 1px solid #FFB300;
+                border-radius:1rem;
+                box-shadow: 0px 4px 140px 5px rgba(0, 0, 0, 0.09);
+                
+                &-img{
+                    margin-right:2rem;
+                    width:90%;
+                    margin:auto;
+                }
+
+                h4{
+                    margin-bottom:4rem;
+                    font-size:2rem;
+                    text-align:center;
+                    text-transform:uppercase;
+
+                }
+
+                button{
+                    margin-bottom:1rem;
+                    font-size:1.5rem;
+                    width:25rem;
+                    padding:2rem 2rem;
+                    border-radius:30px;
+                    background: #1A1A1A;
+                    color:#fefefe;
+                    border:none;
+                    outline:none;
+
+                    position:absolute;
+                    bottom:-18%;
+                    left:50%;
+                    right:50%;
+                    transform:translate(-50%,-50%);
+                    
+
+                }
+            }
+
         }
     }
 `

@@ -1,11 +1,31 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import Title from '../../Components/Title/Title'
-import { Form, GetStarted, LayerWrap, Policy, Signup, Value } from './Layer.styled'
+import { Features, Form, GetStarted, LayerWrap, Policy, Signup, Value } from './Layer.styled'
 import Button from './../../Components/Button/Button'
 
 
 const Layer = () => {
+  const features = [
+    {
+      title: 'Import',
+      image: '/images/goldpile.png',
+      text: 'imports'
+    },
+    {
+      title: 'track shipment',
+      image: '/images/wollysearch.png',
+      text: 'track shipment'
+    },
+    {
+      title: 'safe keeping',
+      image: '/images/wollysafe.png',
+      text: 'safe keeping'
+    }
+
+  ]
+
   return (
     <LayerWrap>
         {/* <div className="layer">
@@ -116,14 +136,14 @@ const Layer = () => {
                 <div className='section-column section-2-column-1'>
                   <div className='box item-1'>
                       <div className='box-img'>
-                        <Image src='/icons/badge.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
+                        <Image src='/icons/security_lock.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
                       </div>
                       <h3>values</h3>
                       <p>We serve our customers with fairness and transparency. We settle all contracts by the book and speak plainly and truthfully.</p>
                   </div>
                   <div className='box item-1'>
                       <div className='box-img'>
-                        <Image src='/icons/badge.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
+                        <Image src='/icons/handshake.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
                       </div>
                       <h3>Teamwork</h3>
                       <p>We value team players that collaborate freely across departments with humility and ambition.</p>
@@ -133,14 +153,14 @@ const Layer = () => {
               <div className=' section-column section-2-column-2'>
                   <div className='box item-1'>
                       <div className='box-img'>
-                        <Image src='/icons/badge.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
+                        <Image src='/icons/protect.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
                       </div>
                       <h3>Competence</h3>
                       <p>We value colleagues with an aptitude to learn and grow and the ability to use good judgement.</p>
                   </div>
                   <div className='box item-1'>
                       <div className='box-img'>
-                        <Image src='/icons/badge.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
+                        <Image src='/icons/online_support.png' alt='' width='70' height='70' layout='intrinsic' objectFit="cover"/>
                       </div>
                       <h3>Customer focus</h3>
                       <p>We put the customer first and strive to build products that deliver the best customer experience.</p>
@@ -149,6 +169,43 @@ const Layer = () => {
             </div>
             </div>
         </Value>
+
+        <Features>
+            <div className='wrap'>
+              <h3>We have A Lot Of Features Just For You</h3>
+              <div className='feature-container'>
+                {
+                  features.map((feature, index) => {
+                    return (
+                      // <div className='feature-item' key={index}>
+                      //   <div className='feature-item-img'>
+                      //     <Image src={feature.image} alt='' width='150' height='150' layout='intrinsic' objectFit="cover"/>
+                      //   </div>
+                      //   <div className='feature-item-text'>
+                      //     <h4>{feature.title}</h4>
+                      //     <p>{feature.text}</p>
+                      //   </div>
+                      // </div>
+
+                      <div className='feature-item' key={index}>
+                  <div className='feature-item-img'>
+                  <Image src={feature.image} alt='' width='500' height='500' layout='intrinsic' objectFit="contain"/>
+                  </div>
+                  <h4>{feature.title}</h4>
+                
+                  <Link href='#' passHref>
+                    <button>More in {feature.text} <span>&gt;</span></button>
+                  </Link>
+
+              </div>
+                    )
+                  }
+                )}
+
+                
+            </div>
+            </div>
+        </Features>
 
     </LayerWrap>
   )
