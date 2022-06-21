@@ -11,6 +11,17 @@ export const LayerWrap = styled.div`
     }
     
 `
+export const Frontline = styled.div`
+  
+    margin:auto;
+    display:grid;
+
+    @media only screen and (min-width: 600px) {
+        width:80%;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+`
 
 
 export const Signup = styled.div`
@@ -71,13 +82,19 @@ export const Form = styled.div`
 
 export const GetStarted = styled.div`
     margin-bottom:9rem;
+
     .wrap{
         width:85%;
         margin:auto;
         text-align:center;
+        display:grid;
 
 
         .section-wrap{
+            display:grid;
+            /* width:80%; */
+            margin:auto;
+            
 
             .section-2{
 
@@ -94,7 +111,24 @@ export const GetStarted = styled.div`
                     line-height:2rem;
                 }
             }
+
+            @media only screen and (min-width: 600px) {
+                grid-template-columns: repeat(2,1fr);
+                grid-gap:8rem;
+                text-align:left;
+                width: 80%;
+
+                .section-2{
+                    align-self:center;
+
+                    p{
+                        line-height:2.5rem;
+                    }
+                }
+
+            }
         }
+
         
     }
         
@@ -105,6 +139,10 @@ export const Policy = styled.div`
     .wrap{
         width:85%;
         margin:auto;
+
+        .side-img{
+            display:none;
+        }
 
         .section-1{
 
@@ -144,6 +182,40 @@ export const Policy = styled.div`
                 }
             }
         }
+
+
+        @media only screen and (min-width: 600px) {
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap:8rem;
+
+            .section-1{
+
+                h3{
+                    text-align:left;
+                }
+                p{
+                    text-align:left !important;
+                }
+            }
+          
+
+            .side-img{
+                display:block;
+                width:100%;
+                align-self:center;
+                align-content:center
+            }
+
+            .policy-item{
+                margin-bottom:5rem !important;
+            }
+
+            .policy-item-img{
+                width:8rem !important;
+                }
+
+        }
     }
 
    
@@ -165,7 +237,7 @@ export const Value = styled.div`
 
         .section-1{
             
-            h3{
+            & > h3{
                 padding-top: 5rem !important;
                 color:#fefefe;
                 font-size:2rem;
@@ -177,7 +249,7 @@ export const Value = styled.div`
         }
 
         .section-2{
-            margin-top:4rem;
+            /* margin-top:4rem; */
             margin-bottom:7rem;
 
             &-column-1{
@@ -196,7 +268,7 @@ export const Value = styled.div`
 
                     h3{
                         margin-bottom: 1rem;
-                        font-size:2rem;
+                        /* font-size:2rem; */
                     }
 
                     p{
@@ -209,7 +281,7 @@ export const Value = styled.div`
         }
 
         .section-2{
-            margin-top:4rem;
+            /* margin-top:4rem; */
             margin-bottom:7rem;
 
             &-column-2{
@@ -228,7 +300,7 @@ export const Value = styled.div`
 
                     h3{
                         margin-bottom: 1rem;
-                        font-size:2rem;
+                        /* font-size:2rem; */
                     }
 
                     p{
@@ -239,6 +311,43 @@ export const Value = styled.div`
                 }
             }
         }
+
+        
+    }
+
+    @media only screen and (min-width: 600px) {
+
+        min-height:120vh;
+        display:flex;
+        align-items:center;
+            .wrap{
+                display:grid;
+                grid-template-columns: 1fr 2fr;
+                justify-content:center;
+                align-items:center;
+                align-content:center;
+                align-self:center;
+                grid-gap:8rem;
+
+
+            .section-2{
+                display:grid;
+                grid-template-columns: repeat(2,1fr);
+                align-items:center;
+                grid-gap:4rem;
+            }
+
+            .section-2-column-2{
+                /* transform:translateY(6rem); */
+                margin-top:14rem;
+            }
+
+            .section-1 > h3{
+                    font-size:2.5rem !important;
+                    line-height:4rem;
+                }
+        }
+        
     }
 `
 
@@ -293,7 +402,7 @@ export const Features = styled.div`
 
                 h4{
                     margin-bottom:4rem;
-                    font-size:2rem;
+                    /* font-size:2rem; */
                     text-align:center;
                     text-transform:uppercase;
 
@@ -301,7 +410,7 @@ export const Features = styled.div`
 
                 button{
                     margin-bottom:1rem;
-                    font-size:1.5rem;
+                    /* font-size:1.5rem; */
                     width:21rem;
                     padding:2rem 2rem;
                     border-radius:30px;
@@ -321,6 +430,26 @@ export const Features = styled.div`
             }
 
         }
+    }
+
+
+    @media only screen and (min-width: 600px) {
+        height:100vh;
+        display:flex;
+        align-items:center;
+        .wrap{
+            margin-bottom:0;
+            
+
+            .feature-container{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap:10rem;
+            }
+
+           
+        }
+
     }
 `
 
@@ -342,7 +471,43 @@ export const Action = styled.div`
                 text-align:center;
                 text-transform:capitalize;
             }
+
     }
+    }
+
+    @media only screen and (min-width: 600px) {
+
+        margin-top:0;
+
+        
+        .btn{
+                /* text-align:center !important; */
+                /* margin:auto   !important; */
+                display: inline-block !important;
+                width: 10rem !important;
+                
+            }
+    }
+`
+
+export const Banner = styled.div`
+    display:none;
+
+    @media only screen and (min-width: 600px) {
+        display:block;
+        
+        .wrap{
+            width: 90% !important;
+            margin:auto;
+            margin-bottom:7rem;
+            width:100%;
+            background: url('/images/banner.png');
+            background-size:cover;
+            background-repeat:no-repeat;
+            height:20rem;
+            border-radius: 20px;
+        }
+
     }
 `
 
@@ -404,4 +569,50 @@ export const Faq = styled.div`
 
         }
     }
+
+    @media only screen and (min-width: 600px) {
+        
+        .wrap{
+            
+
+            .faq-tab{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap:2rem;
+
+
+                &-item{
+                    display:grid;
+                    grid-template-columns: 6rem 1fr;
+                    
+
+                    &-img{
+                        margin-right:2rem;
+                    }
+                
+                    h4{
+                        text-align:left
+                    }
+
+                    p{
+                        text-align:left;
+                        width:100%;
+                    }
+
+                    .link{
+                        text-align:left !important;
+                    }
+
+                    a{
+                        display:inline-block;
+                        text-align:left !important;
+                        width:100%;
+                    }
+                
+                }
+            }
+        }
+    }
 `
+
+

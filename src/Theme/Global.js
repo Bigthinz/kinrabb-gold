@@ -20,6 +20,11 @@ html{
 body {
   font-size:1.3rem;
   color: #474645;
+
+  @media only screen and (min-width: 1024px) {
+    font-size:1.4rem;
+
+  }
  
 }
 

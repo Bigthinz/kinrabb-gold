@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Title from '../../Components/Title/Title'
-import { Action, Faq, Features, Form, GetStarted, LayerWrap, Policy, Signup, Value } from './Layer.styled'
+import { Action, Banner, Faq, Features, Form, Frontline, GetStarted, LayerWrap, Policy, Signup, Value } from './Layer.styled'
 import Button from './../../Components/Button/Button'
 
 
@@ -49,6 +49,9 @@ const Layer = () => {
 
   return (
     <LayerWrap>
+      <Frontline>
+
+      
         {/* <div className="layer">
             <Title text='HOW TO GET STARTED' />
         </div> */}
@@ -81,6 +84,7 @@ const Layer = () => {
                 </form>
             </div>
         </Form>
+        </Frontline>
 
         <GetStarted>
             <div className='wrap'>
@@ -144,7 +148,13 @@ const Layer = () => {
 
 
                 </div>
-              </div>  
+              </div>
+
+              <div className='side-img'>
+                <div>
+                <Image src='/images/lock.png' alt='' width='500' height='500' layout='intrinsic' objectFit="cover"/> 
+                </div>
+              </div>
             </div>
         </Policy>
 
@@ -153,6 +163,7 @@ const Layer = () => {
               <div className='section-1'>
                 <h3>Kinrabb Gold Security Company</h3>
               </div>
+              
               <div className='section-2'>
                 <div className='section-column section-2-column-1'>
                   <div className='box item-1'>
@@ -187,6 +198,7 @@ const Layer = () => {
                       <p>We put the customer first and strive to build products that deliver the best customer experience.</p>
                   </div>
               </div>
+              
             </div>
             </div>
         </Value>
@@ -194,6 +206,7 @@ const Layer = () => {
         <Features>
             <div className='wrap'>
               <h3>We have A Lot Of Features Just For You</h3>
+              
               <div className='feature-container'>
                 {
                   features.map((feature, index) => {
@@ -232,10 +245,18 @@ const Layer = () => {
             <div className='wrap'>
               <div className='section-1'>
                 <h3>start saving gold with us</h3>
+                <div className='btn'>
                 <Button text='Get Started'/>
+                </div>
               </div>
             </div>
         </Action>
+
+        <Banner>
+          <div className='wrap'>
+
+          </div>
+        </Banner>
 
         <Faq>
             <div className='wrap'>
