@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../Components/Footer/Footer'
 import Hero from '../PageComponents/home/Hero'
 import Layer from '../PageComponents/home/Layer'
 
@@ -18,6 +19,7 @@ export default function Home() {
       <main>
           <Hero/>
           <Layer/>
+          <Footer/>
       </main>
 
      

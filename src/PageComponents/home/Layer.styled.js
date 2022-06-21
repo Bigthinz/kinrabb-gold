@@ -577,7 +577,10 @@ export const Faq = styled.div`
 
             .faq-tab{
                 display:grid;
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: repeat(3, minmax(20rem, 1fr));
+                grid-auto-flow:auto;
+               
+                /* grid-template-rows:auto; */
                 grid-gap:2rem;
 
 

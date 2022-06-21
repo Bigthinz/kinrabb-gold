@@ -7,7 +7,7 @@ const Navbar = () => {
     <Nav>
         <Wrap>
             <div className="logo-div">
-                <Image src='/images/logo.svg' alt='logo'  width={70} height={70} objectFit='contain' priority/>
+                <Image src='/images/logo-sm.png' alt='logo'  width={70} height={70} objectFit='contain' priority/>
             </div>
             <NavOptions>                
                 {/* <div className="links">
