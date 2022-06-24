@@ -10,7 +10,7 @@ const Navbar = () => {
                 <Image src='/images/logo-sm.png' alt='logo'  width={70} height={70} objectFit='contain' priority/>
             </div>
             <NavOptions>                
-                {/* <div className="links">
+                <div className="links">
                     <ul>
                         <li><Link href=''><a>About us</a></Link></li>
                         <li><Link href=''><a>Air freight</a></Link></li>
@@ -31,7 +31,7 @@ const Navbar = () => {
                             <Link href=''><a>Sign Up</a></Link>
                         </span>
                     </div>
-                </div> */}
+                </div>
             </NavOptions>      
         </Wrap>
     </Nav>

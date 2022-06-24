@@ -20,7 +20,7 @@ const Hero = () => {
                     </Link> */}
                    {/* <p><Link href=''><a>Need help?</a></Link></p> */}
                 </HeroTitle>
-                <HeroImg>
+                {/* <HeroImg>
                     <div className="banner">
                         <Image src='/images/goldpile.png' alt='' width='500' height='500' layout='intrinsic' objectFit="contain"/>
                         <h3>Keep an eye on <span>Gold</span></h3>
@@ -28,7 +28,7 @@ const Hero = () => {
                     <Link href='' passHref>
                       <button >open your free account now</button>
                     </Link>
-                </HeroImg>
+                </HeroImg> */}
             </HeroInfo>
         </div>
 

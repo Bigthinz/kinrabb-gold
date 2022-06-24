@@ -21,6 +21,12 @@ margin-bottom:7rem;
 }
 
 
+@media only screen and (min-width: 900px) {
+    background: url('/images/hero.jpg');
+    background-size:cover;
+    min-height:100vh;
+}
+
 `
 
 export const HeroTitle = styled.div`
