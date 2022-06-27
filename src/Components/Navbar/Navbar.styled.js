@@ -7,7 +7,8 @@ box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
 
 @media only screen and (min-width: 900px) {
     background: rgba(26, 26, 26, 0.8);
-    backdrop-filter: blur(45px);
+    /* backdrop-filter: blur(45px); */
+    backdrop-filter: saturate(180%) blur(5px);
     width:100%;
     position:fixed;
     top:0;
