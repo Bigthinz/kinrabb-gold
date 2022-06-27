@@ -4,8 +4,7 @@ import Link from 'next/link'
 import Title from '../../Components/Title/Title'
 import { Action, Banner, Faq, Features, Form, Frontline, GetStarted, LayerWrap, Policy, Signup, Value } from './Layer.styled'
 import Button from './../../Components/Button/Button'
-import Footer from '../../Components/Footer/Footer'
-// import Footer from '../../Components/Footer/Footer'
+// import Footer from './../../Components/Footer/Footer'
 
 
 const Layer = () => {
@@ -287,7 +286,7 @@ const Layer = () => {
             </div>
         </Faq>
               
-            <Footer/>
+            {/* <Footer/> */}
        
 
     </LayerWrap>
