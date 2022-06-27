@@ -285,6 +285,7 @@ const Layer = () => {
             </div>
             </div>
         </Faq>
+        <Footer/>
        
 
     </LayerWrap>
