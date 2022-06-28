@@ -86,7 +86,9 @@ const Layer = () => {
             </div>
         </Form>
         </Frontline>
-
+        <svg role="presentation" aria-hidden="true" fill="none" height="57" viewBox="0 0 69 17" width="169">
+  <path d="M69 17v-2.776L66.302 17H69zm-6.895 0L69 9.906V7.122L59.4 17h2.705zm-6.903 0L69 2.803V.02L52.497 17h2.705zM48.3 17L64.822 0h-2.705L45.595 17H48.3zm-6.903 0L57.919 0h-2.706L38.691 17h2.706zm-6.902 0L51.017 0H48.31L31.79 17h2.706zm-6.903 0L44.114 0h-2.709L24.887 17h2.705zm-6.903 0L37.207 0h-2.705L17.984 17h2.705zm-6.903 0L30.304 0H27.6L11.081 17h2.705zm-6.903 0L23.401 0h-2.705L4.178 17h2.705zm6.911-17L0 14.197v2.783L16.5 0h-2.706zM6.891 0L.001 7.095v2.783L9.596 0H6.89zM.001 0v2.776L2.694 0H.001z" fill="#FBBC04"></path>
+</svg>
         <GetStarted>
             <div className='wrap'>
               <div className="layer">
@@ -204,6 +206,7 @@ const Layer = () => {
             </div>
         </Value>
 
+
         <Features>
             <div className='wrap'>
               <h3>We have A Lot Of Features Just For You</h3>
@@ -251,8 +254,29 @@ const Layer = () => {
                 </div>
               </div>
             </div>
+            
         </Action>
-
+        
+                  <svg role="presentation" aria-hidden="true" width="320" height="40" viewBox="0 0 320 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0V6.8L6.8 0H0Z" fill="#5F6368"></path>
+<path d="M20.6 0L0 20.6V27.6L27.6 0H20.6Z" fill="#5F6368"></path>
+<path d="M41.5 0L1.5 40H8.4L48.4 0H41.5Z" fill="#5F6368"></path>
+<path d="M62.3008 0L22.3008 40H29.2008L69.2008 0H62.3008Z" fill="#5F6368"></path>
+<path d="M83.0996 0L43.0996 40H49.9996L89.9996 0H83.0996Z" fill="#5F6368"></path>
+<path d="M103.9 0L63.9004 40H70.9004L110.9 0H103.9Z" fill="#5F6368"></path>
+<path d="M124.699 0L84.6992 40H91.6992L131.699 0H124.699Z" fill="#5F6368"></path>
+<path d="M145.6 0L105.6 40H112.5L152.5 0H145.6Z" fill="#5F6368"></path>
+<path d="M166.4 0L126.4 40H133.3L173.3 0H166.4Z" fill="#5F6368"></path>
+<path d="M187.199 0L147.199 40H154.099L194.099 0H187.199Z" fill="#5F6368"></path>
+<path d="M208 0L168 40H175L215 0H208Z" fill="#5F6368"></path>
+<path d="M228.801 0L188.801 40H195.801L235.801 0H228.801Z" fill="#5F6368"></path>
+<path d="M249.699 0L209.699 40H216.599L256.599 0H249.699Z" fill="#5F6368"></path>
+<path d="M270.5 0L230.5 40H237.4L277.4 0H270.5Z" fill="#5F6368"></path>
+<path d="M291.301 0L251.301 40H258.301L298.301 0H291.301Z" fill="#5F6368"></path>
+<path d="M312.1 0L272.1 40H279.1L319.1 0H312.1Z" fill="#5F6368"></path>
+<path d="M293 40H299.9L320 19.9V13L293 40Z" fill="#5F6368"></path>
+<path d="M320.001 39.9998V33.7998L313.801 39.9998H320.001Z" fill="#5F6368"></path>
+</svg>
         <Banner>
           <div className='wrap'>
 
