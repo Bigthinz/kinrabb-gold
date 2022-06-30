@@ -25,10 +25,10 @@ const Navbar = () => {
                 <div className="auth">
                     <div className="auth-wrap">
                         <span className="signin">
-                            <Link href='/signup'><a>Sign In</a></Link>
+                            <Link href='/login'><a>Sign In</a></Link>
                         </span>
                         <span className="signup">
-                            <Link href='/login'><a>Sign Up</a></Link>
+                            <Link href='/signup'><a>Sign Up</a></Link>
                         </span>
                     </div>
                 </div>

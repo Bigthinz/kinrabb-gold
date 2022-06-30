@@ -23,3 +23,17 @@ a {
   min-height: 110vh;
   background: #f5f5f5;
 }
+
+
+#nprogress .bar {
+  background: #FFA000 !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #FFA000, 0 0 5px #FFA000;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #FFA000;
+  border-left-color: #FFA000;
+}

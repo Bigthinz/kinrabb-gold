@@ -29,6 +29,25 @@ margin-bottom:7rem;
 
 `
 
+export const BigScreen = styled.div`
+
+
+.wrap{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:2rem;
+
+    height: 50vh;
+    align-items:center;
+}
+
+
+`
+
+
+
+
 export const HeroTitle = styled.div`
     width:100%;
    
