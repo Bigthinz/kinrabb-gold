@@ -29,22 +29,24 @@ const ButtonStyle = styled.button`
         height:4.8rem;
        
         /* border: 1px solid ${({border})=> border || '#1DAF92'}; */
-        transition: .1s all ease-in-out;
+        transition: .1s all ease-in-out !important;
         outline:none !important;
         margin-right:1rem;
         display:block;
         min-width:17rem;
+        /* transition: .2s all ease-in-out; */
 
        
 
 
         &:hover {
-            transition: .2s all ease-in-out;
-            background: ${({bg})=> bg || `rgba(255,160,0, 0.9)`};
+        transition: .2s all ease-in-out;
+            
+            background: ${({bg})=> bg || `linear-gradient(90deg,  #FFA000 100%, #FFB300 1.91%);`};
         }
         &:active {
             transform: translateY(0.05rem);
-            background: ${({bg})=> bg || `rgba(255,179,0, 0.85)`};
+            /* background: ${({bg})=> bg || `rgba(255,179,0, 0.85)`}; */
 
         }
 

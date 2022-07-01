@@ -1,6 +1,7 @@
 import '../../styles/globals.css'
 import { AppProps } from 'next/app'
 import GlobalStyle from '../Theme/Global'
+import {AnimatePresence } from "framer-motion"
 import { Router } from 'next/dist/client/router'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
@@ -24,10 +25,10 @@ import 'nprogress/nprogress.css'
 
 function MyApp({ Component, pageProps }) {
   return( 
-    <>
+    <AnimatePresence exitBeforeEnter>
       <GlobalStyle/>
      <Component {...pageProps} />   
-    </> 
+    </AnimatePresence> 
   )
 }
 
