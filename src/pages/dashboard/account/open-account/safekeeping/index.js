@@ -1,5 +1,5 @@
 import React from 'react'
-import Safe from '../../../../../PageComponents/safe/Safe'
+import Safe from '../../../../../PageComponents/Safe/Safe'
 
 const index = () => {
   return (
