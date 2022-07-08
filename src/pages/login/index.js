@@ -1,5 +1,5 @@
 import React from 'react'
-import Login from '../../PageComponents/Login/login'
+import Login from '../../PageComponents/Login/Login'
 
 import { motion } from 'framer-motion'
 // import background from '/img/shapes.svg'
